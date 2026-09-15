@@ -134,7 +134,8 @@ else:
         print(read_message(sys.argv[2]))
     else:
         print("Enter message to encode:")
-        m = input("> ")
+        # m = input("> ")
+        m = "hello lohmanoid I am fully aware and here... or am I??"
         write_message(sys.argv[2], m)
 
 
